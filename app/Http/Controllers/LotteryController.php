@@ -6,13 +6,6 @@ use Illuminate\Http\Request;
 
 class LotteryController extends Controller
 {
-    //
-
-    function index()
-    {
-        return view('lottery');
-    }
-
 
     /**
      * 抽獎頁面
