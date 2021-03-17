@@ -8,7 +8,8 @@ class LotteryController extends Controller
 {
     //
 
-    function index(){
+    function index()
+    {
         return view('lottery');
     }
 
@@ -111,7 +112,4 @@ class LotteryController extends Controller
     //     $res['no'] = $pr;
     //     print_r($res);
     // }
-
-
-
 }
